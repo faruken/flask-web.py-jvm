@@ -1,10 +1,10 @@
-# Flask and web.py meets JVM (or how to use Apache Shiro with them)
+# Flask and web.py meet JVM (or how to use Apache Shiro with them)
 
 This is a small proof-of-concept project that mixes Flask, web.py and Apache Shiro.
 
 [Apache Shiro](http://shiro.apache.org/) is a Java security framework that performs authentication, authorization, cryptography, and session management. You may also be interested in reading [this article](http://www.infoq.com/articles/apache-shiro) as well.
 
-This is a demonstration of [Flask](http://flask.pocoo.org/) [web.py](http://webpy.org/) with [WTForms](http://wtforms.simplecodes.com/) running on [Jython](http://www.jython.org/) and uses [Apache Shiro](http://shiro.apache.org/).
+This is a demonstration of [Flask](http://flask.pocoo.org/) and [web.py](http://webpy.org/) with [WTForms](http://wtforms.simplecodes.com/) running on [Jython](http://www.jython.org/) and uses [Apache Shiro](http://shiro.apache.org/).
 
 ## Installation
 
