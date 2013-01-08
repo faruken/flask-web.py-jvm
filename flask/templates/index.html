@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><html>
+    <title>Flask meets JVM - Apache Shiro</title>
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css"/>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    {% if form.errors %}
+    <p id="wrong">Either username or password is wrong.</p>
+    {% endif %}
+    <form action="/" method="post">
+      <p>{{form.username}}</p>
+      <p>{{form.password}}</p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <p id="info">Info: This is a demonstration of <a href="http://webpy.org/">Flask</a> with <a href="http://wtforms.simplecodes.com/">WTForms</a> running on <a href="http://www.jython.org/">Jython</a> and uses <a href="http://shiro.apache.org/">Apache Shiro</a>, Java security framework that performs authentication, authorization, cryptography, and session management.</p>
+  </body>
+</html>

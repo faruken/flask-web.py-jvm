@@ -1,0 +1,33 @@
+body {
+  margin:50px auto;
+  width:960px;
+  font:200 18px/24px Helvetica, sans-serif;
+  background:#fff;
+  color:#000;
+  text-align:center;
+}
+
+input[type^="text"], input[type^="password"] {
+  border:2px solid #ccc;
+  width:560px;
+  padding:20px;
+  font:200 18px/24px Helvetica, sans-serif;
+}
+
+a {
+  color:#00f;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+#info {
+  margin:100px 0;
+  font-size:14px;
+}
+
+#wrong {
+  color:#a10;
+}
